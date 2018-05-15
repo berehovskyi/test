@@ -21,7 +21,7 @@ public class TrialDivision {
         for (long i = 1; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 divisors.add(i);
-                divisors.add(number/i);
+                divisors.add(number / i);
             }
         }
         return new ArrayList<>(divisors);
