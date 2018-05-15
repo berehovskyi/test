@@ -6,12 +6,12 @@ import java.util.*;
 public class TrialDivision {
 
     public static void main(String[] args) throws IOException {
-        Long inputNumber = readAndGetInputNumber();
+        Long inputNumber = inputNumber();
         List<Long> divisors = getAllDivisorsOfNumber(inputNumber);
         System.out.println(divisors);
     }
 
-    private static Long readAndGetInputNumber() throws IOException {
+    private static Long inputNumber() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         return Long.parseLong(reader.readLine());
     }
