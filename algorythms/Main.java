@@ -1,3 +1,5 @@
+package algorythms;
+
 import java.io.*;
 import java.util.Random;
 
